@@ -1,0 +1,24 @@
+.box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 1000px;
+  max-height: 550px;
+  margin: auto;
+  background-color: #15171f;
+  border-radius: 41px;
+  border: #de8e14 solid 10px;
+}
+
+ul {
+  display: flex;
+  color: white;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.home {
+  color: #de8e14;
+}
