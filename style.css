@@ -1,24 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .box {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 1000px;
-  max-height: 550px;
+  max-width: 1300px;
+  max-height: 700px;
   margin: auto;
   background-color: #15171f;
   border-radius: 41px;
   border: #de8e14 solid 10px;
 }
 
-ul {
-  display: flex;
-  color: white;
-  list-style: none;
-  justify-content: space-evenly;
+.joker-background {
+  background-image: url("/img/joker2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* border-radius:41px; */
 }
 
-.home {
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 178, 33, 255) 0%,
+    rgba(253, 178, 33, 255) 50%,
+    rgba(28, 32, 42, 255) 50%,
+    rgba(28, 32, 42, 255) 100%
+  );
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.subtitle {
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  font-size: 80%;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.home a {
   color: #de8e14;
+}
+
+.container {
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.button-play {
+  margin-top: 80px;
+  padding-bottom: 8px;
+}
+
+.button-buy {
+  background-color: #15171f;
+  color: white;
+  width: 140px;
+  height: 50px;
+}
+
+.button-watch {
+  background-color: #de8e14;
+  width: 160px;
+  height: 60px;
+}
+
+.container p:first-child {
+  color: #de8e14;
+}
+
+.title {
+  color: white;
+  display: flex;
+}
+
+.title h1 {
+  font-size: 70px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-poster {
+  display: flex;
+  color: white;
+  margin: 20px;
+}
+.poster {
+  width: 14vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
 }
