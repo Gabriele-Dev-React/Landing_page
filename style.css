@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -9,9 +11,9 @@
   bottom: 0;
   left: 0;
   max-width: 1300px;
-  max-height: 700px;
+  max-height: 750px;
   margin: auto;
-  background-color: #15171f;
+  background-color: black;
   border-radius: 41px;
   border: #de8e14 solid 10px;
 }
@@ -88,25 +90,34 @@ a {
 .title {
   color: white;
   display: flex;
+  align-items: flex-end;
 }
 
 .title h1 {
   font-size: 70px;
+  font-family: "anton";
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.title h2 {
+  font-size: 100%;
+  margin-left: 10%;
 }
 
 .footer-poster {
   display: flex;
+  justify-content: space-evenly;
   color: white;
-  margin: 20px;
+  margin-top: 10px;
 }
+
+footer h2 {
+  color: white;
+  margin-left: 100px;
+}
+
 .poster {
-  width: 14vh;
+  width: 150px;
+  height: 200px;
 }
 .card {
   display: flex;
